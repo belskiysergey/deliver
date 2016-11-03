@@ -1,0 +1,98 @@
+// Стили для шапки
+
+header {
+    max-width: 1180px;
+    color: #ffffff;
+    position: absolute;
+    top: 43px;
+    left: 210px;
+    right: 210px;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo-social-networks {
+        width: 100%;
+        padding-bottom: 10px;
+        border-bottom: 1px #ffffff solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            font-family: 'Pacifico';
+            font-size: 40px;
+            float: left;
+        }
+
+        .social-networks {
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            -ms-flex-pack: distribute;
+            text-align: center;
+            float: right;
+
+            li {
+                width: 34px;
+                height: 34px;
+                border-radius: 50%;
+                background-color: #d6d1c4;
+                transition: 0.3s;
+
+                &:hover {
+                    background-color: #fefefe;
+                }
+            }
+
+            li:nth-child(2) {
+                margin: 0 11px;
+            }
+        }
+    }
+
+    .head-button {
+        width: 100%;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-pack: distribute;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+
+        menu {
+            max-width: 955px;
+
+            ul {
+                display: flex;
+
+                li {
+                    font-family: 'Novecentosanswide';
+                    font-size: 18px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    margin-right: 30px;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    a:hover {
+                        color: #87b672;
+                    }
+                }
+            }
+        }
+
+        .block-search {
+            float: right;
+
+            input {
+                border-radius: 20px;
+                border: 0px;
+                opacity: 0;
+            }
+        }
+    }
+}

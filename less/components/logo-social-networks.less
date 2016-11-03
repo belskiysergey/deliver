@@ -1,0 +1,38 @@
+.logo-social-networks {
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px #ffffff solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        font-family: 'Pacifico';
+        font-size: 40px;
+        float: left;
+    }
+
+    .social-networks {
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-pack: distribute;
+        text-align: center;
+        float: right;
+
+        li {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            background-color: #d6d1c4;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: #fefefe;
+            }
+        }
+
+        li:nth-child(2) {
+            margin: 0 11px;
+        }
+    }
+}

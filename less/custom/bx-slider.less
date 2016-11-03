@@ -1,0 +1,100 @@
+// Стили карусели
+
+.bx-wrapper {
+    margin: 0 auto;
+    height: 600px;
+    overflow: hidden;
+
+    .bx-viewport {
+        -moz-box-shadow: none;
+        -webkit-box-shadow: 0 0 5px #ccc;
+        box-shadow: none;
+        border: none;
+        left: 0px;
+        background: #fff;
+        -webkit-transform: translatez(0);
+        -moz-transform: translatez(0);
+        -ms-transform: translatez(0);
+        -o-transform: translatez(0);
+        transform: translatez(0);
+    }
+
+    .bx-controls-direction a {
+        width: 64px;
+        height: 64px;
+    }
+
+    .bx-prev {
+        left: 70px;
+        background: url("@{images_dir}/switches.png") no-repeat 0px -119px;
+
+        &:hover {
+            background: url("@{images_dir}/switches.png") no-repeat 0 0;
+            -moz-transform: rotate(180deg); /* Для Firefox */
+            -ms-transform: rotate(180deg); /* Для IE */
+            -webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
+            -o-transform: rotate(180deg); /* Для Opera */
+            transform: rotate(180deg);
+        }
+    }
+
+    .bx-next {
+        right: 70px;
+        background: url("@{images_dir}/switches.png") no-repeat 0px -119px;
+        -moz-transform: rotate(180deg); /* Для Firefox */
+        -ms-transform: rotate(180deg); /* Для IE */
+        -webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
+        -o-transform: rotate(180deg); /* Для Opera */
+        transform: rotate(180deg);
+
+        &:hover {
+            background-position: 0;
+            background: url("@{images_dir}/switches.png") no-repeat 0 0;
+            -moz-transform: rotate(0deg); /* Для Firefox */
+            -ms-transform: rotate(0deg); /* Для IE */
+            -webkit-transform: rotate(0deg); /* Для Safari, Chrome, iOS */
+            -o-transform: rotate(0deg); /* Для Opera */
+            transform: rotate(0deg);
+        }
+    }
+
+    .bx-pager,
+    .bx-controls-auto {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-pack: distribute;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bx-pager.bx-default-pager a {
+        width: 8px;
+        height: 8px;
+        margin: 0 2px;
+        background-color: #ffffff;
+        opacity: 1;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        transition: 0.2s;
+
+        &:hover,
+        &.active {
+            background: #ffffff;
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    .bx-loading {
+        background: url(../js/jquery.bxslider/images/bx_loader.gif) center center no-repeat #fff;
+    }
+}
+
+.bxslider img {
+    width: 100%;
+}
+
