@@ -1,12 +1,14 @@
 // Стили для шапки
 
 header {
-    max-width: 1180px;
+    width: 1180px;
+    min-width: 1180px;
     color: #ffffff;
     position: absolute;
     top: 43px;
-    left: 210px;
-    right: 210px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
     display: flex;
     -webkit-flex-flow: row wrap;
     -ms-flex-pack: distribute;
@@ -44,10 +46,16 @@ header {
                 &:hover {
                     background-color: #fefefe;
                 }
+
+                .fa {
+                    font-size: 18px;
+                    margin-top: 8px;
+                    color: #808080;
+                }
             }
 
-            li:nth-child(2) {
-                margin: 0 11px;
+            li:not(:last-child) {
+                margin-right: 11px;
             }
         }
     }

@@ -3,8 +3,9 @@ footer {
 
     a {
         color: #808080;
+        transition: 0.1s;
 
-        &:hover {
+        &:not(.social-networks):hover {
             color: #fefefe;
         }
     }
@@ -43,10 +44,16 @@ footer {
                     &:hover {
                         background-color: #fefefe;
                     }
+
+                    .fa {
+                        font-size: 18px;
+                        margin-top: 8px;
+                        color: #808080;
+                    }
                 }
 
-                li:nth-child(2) {
-                    margin: 0 11px;
+                li:not(:last-child) {
+                    margin-right: 11px;
                 }
             }
         }
@@ -86,9 +93,8 @@ footer {
             flex-grow: 1;
             flex-basis: 130px;
 
-            ul li:before {
-                content: '\f105';
-                margin-right: 5px;
+            li > a {
+                margin-left: 5px;
             }
         }
 
