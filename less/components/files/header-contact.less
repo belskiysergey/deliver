@@ -1,0 +1,169 @@
+// Подключаем необходимые компоненты для страницы
+
+@import url('header.less');
+@import url('wrapp.less');
+@import url('team.less');
+@import url('block-question.less');
+
+// Базовые стили страницы
+
+h3 {
+    color: #5f5b5b;
+    margin-bottom: 28px;
+}
+
+input,
+textarea {
+    border: 0px;
+    background-color: #efefef;
+    color: #666262;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 16px 15px;
+    color: #ffffff;
+    background-color: #87b672;
+    border: 0;
+    text-transform: uppercase;
+    font-family: 'Novecentosanswide';
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+// Стилизуем шапку для страницы контактов
+
+header {
+    color: #666262;
+    position: relative;
+
+    .logo-social-networks {
+        border-bottom: 1px #cccccc solid;
+
+        .social-networks li {
+
+            &:hover {
+                background-color: #d6d1c4;
+            }
+
+            .fa {
+                color: #ffffff;
+
+                &:hover {
+                    color: #666262;
+                }
+            }
+        }
+    }
+
+    .head-button menu {
+
+        ul li a {
+            color: #666262;
+        }
+
+        .block-search input {
+            background-color: #666262;
+        }
+    }
+}
+
+// Заголовок страницы
+
+.section-title {
+    font-family: 'Novecentosanswide';
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fefefe;
+    padding: 32px 0 32px 202px;
+    background: url('@{images}/background-contact.png') no-repeat;
+    margin-top: 58px;
+}
+
+// Блок формы и контактов
+
+.wrapper {
+    .wrapp;
+    padding: 59px 0px;
+    text-align: left;
+
+    .contact-form {
+        width: 670px;
+        float: left;
+
+        form {
+            margin-top: 30px;
+
+            input {
+                width: 350px;
+                height: 40px;
+                margin-bottom: 30px;
+                display: block;
+            }
+
+            textarea {
+                width: 655px;
+                height: 300px;
+                margin-bottom: 30px;
+                display: block;
+            }
+
+            label:after {
+                content: '*';
+                color: red;
+                margin-left: 3px;
+            }
+
+            label + div {
+                font-family: 'HelveticaNeue';
+                font-size: 14px;
+                font-weight: 100;
+                text-transform: none;
+                color: #9b9999;
+            }
+        }
+    }
+
+    .company-info {
+        width: 330px;
+        float: right;
+
+        p {
+            margin-bottom: 29px;
+        }
+
+        .info-block {
+            margin-bottom: 49px;
+
+            .box {
+                .name-contact {
+                    float: left;
+                    font-weight: bold;
+                }
+                .contact {
+                    float: right;
+                }
+                .days-of-the-week {
+                    float: left;
+                }
+                .schedule {
+                    float: right;
+                }
+            }
+        }
+
+        span:before {
+            content: '*';
+            margin-right: 3px;
+        }
+    }
+}
+
+// Блок вопроса
+
+.block-question {
+    margin-top: 0px;
+}

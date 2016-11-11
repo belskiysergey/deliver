@@ -15,10 +15,49 @@ footer {
         text-align: left;
 
         .logo-social-networks {
+            width: 100%;
             border-bottom: 0px;
             display: flex;
             align-items: center;
             justify-content: space-between;
+            border-bottom: 0px;
+
+            .logo {
+                font-family: 'Pacifico';
+                font-size: 40px;
+                float: left;
+                color: #fbfbfb;
+            }
+
+            .social-networks {
+                display: flex;
+                -webkit-flex-flow: row wrap;
+                -ms-flex-pack: distribute;
+                text-align: center;
+                float: right;
+
+                li {
+                    width: 34px;
+                    height: 34px;
+                    border-radius: 50%;
+                    background-color: #d6d1c4;
+                    transition: 0.3s;
+
+                    &:hover {
+                        background-color: #fefefe;
+                    }
+
+                    .fa {
+                        font-size: 18px;
+                        margin-top: 8px;
+                        color: #666262;
+                    }
+                }
+
+                li:not(:last-child) {
+                    margin-right: 11px;
+                }
+            }
         }
     }
 
@@ -117,6 +156,7 @@ footer {
 
     h3 {
         margin-bottom: 28px;
+        color: #fbfbfb;
     }
 
     ul li {
@@ -147,6 +187,7 @@ footer {
     button {
         font-family: 'Novecentosanswide';
         border: 0;
+        padding: 0;
         background-color: #4e4c4c;
         width: 53px;
         height: 40px;
