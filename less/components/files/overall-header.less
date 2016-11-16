@@ -1,0 +1,40 @@
+// Подключаем шапку
+
+@import url('header.less');
+
+// Стилизуем шапку для всех страниц, кроме домашней
+
+header {
+    color: #666262;
+    position: relative;
+
+    .logo-social-networks {
+        border-bottom: 1px #cccccc solid;
+
+        .social-networks li {
+
+            &:hover {
+                background-color: #d6d1c4;
+            }
+
+            .fa {
+                color: #ffffff;
+
+                &:hover {
+                    color: #666262;
+                }
+            }
+        }
+    }
+
+    .head-button menu {
+
+        ul li a {
+            color: #666262;
+        }
+
+        .block-search input {
+            background-color: #666262;
+        }
+    }
+}
