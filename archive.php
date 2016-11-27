@@ -77,28 +77,13 @@
                             <li><a href="#">Home Buiders New Planning Solution</a></li>
                         </ul>
                     </div>
-                    <!-- <div class="flickr-widget">
-                        <h3>Flickr Widget</h3>
-                        <div class="clearfix">
-                            <div><img src="@{images}/" alt=""></div>
-                            <div><img src="@{images}/" alt=""></div>
-                            <div><img src="@{images}/" alt=""></div>
-                            <div><img src="@{images}/" alt=""></div>
-                            <div><img src="@{images}/" alt=""></div>
-                            <div><img src="@{images}/" alt=""></div>
-                            <div><img src="@{images}/" alt=""></div>
-                            <div><img src="@{images}/" alt=""></div>
-                        </div>
-                    </div>
-                    <div class="twitter-widget">
-                        <h3>Twitter Widget</h3>
-                        <div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div> -->
+                    <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
+                        <!-- VK Widget -->
+                    <div id="vk_groups"></div>
+<!--                     <script type="text/javascript">
+                        VK.Widgets.Group("vk_groups", {mode: 4, wide: 1, width: "340", height: "400"}, 129894706);
+                    </script> -->
+
                 </div>
             </div>
         </section>

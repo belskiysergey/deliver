@@ -37,12 +37,12 @@
         <div class="flex-item-3">
             <h3>Quick links</h3>
             <ul class="quick-links">
-                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Portfolio</a></li>
-                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">About</a></li>
-                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Archive</a></li>
-                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Blog</a></li>
-                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Dropdown</a></li>
-                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#">Contact Us</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="javascript:void(0)">Portfolio</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="javascript:void(0)">About</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="archive.php">Archive</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="blog.php">Blog</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="javascript:void(0)">Dropdown</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="contact.php">Contact Us</a></li>
             </ul>
         </div>
         <div class="flex-item-4">

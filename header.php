@@ -23,14 +23,14 @@
     <div class="head-button">
         <menu>
             <ul class="clearfix">
-                <li><a href="javascript:void(0)">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="javascript:void(0)">Portfolio</a></li>
                 <li><a href="javascript:void(0)">About</a></li>
-                <li><a href="javascript:void(0)">Services</a></li>
-                <li><a href="javascript:void(0)">Archive</a></li>
-                <li><a href="javascript:void(0)">Blog</a></li>
+                <li><a href="services.php">Services</a></li>
+                <li><a href="archive.php">Archive</a></li>
+                <li><a href="blog.php">Blog</a></li>
                 <li><a href="javascript:void(0)">Other Pages</a></li>
-                <li><a href="javascript:void(0)">Contact us</a></li>
+                <li><a href="contact.php">Contact us</a></li>
             </ul>
         </menu>
         <div class="block-search clearfix">

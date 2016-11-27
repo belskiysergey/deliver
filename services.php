@@ -93,7 +93,7 @@
                     <div class="catalog">
                         <div class="head">Standard</div>
                         <ul>
-                            <li>$1799<sup>99</sup></li>
+                            <li>$1799<sub>99</sub></li>
                             <li>Choice of Templace</li>
                             <li>5 to 10 Pages</li>
                             <li>Basic SEO</li>

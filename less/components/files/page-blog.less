@@ -1,0 +1,122 @@
+// Подключаем необходимые компоненты для страницы
+
+h3 {
+    margin-bottom: 25px;
+}
+
+a {
+    color: #9b9999;
+}
+
+// Заголовок страницы
+
+.section-title {
+    font-family: 'Novecentosanswide';
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fefefe;
+    padding: 32px 0 32px 202px;
+    background: url('@{images}/background-contact.png') no-repeat;
+    margin-top: 58px;
+}
+
+// Основной контент
+
+.wrapper {
+    .wrapp;
+    padding: 59px 0px 0px 0px;
+    text-align: left;
+
+    .block-left {
+        width: 750px;
+        float: left;
+
+        article {
+            border-bottom: 1px #cccccc solid;
+            padding-bottom: 60px;
+            margin-bottom: 60px;
+
+            h3 {
+                margin-top: 30px;
+            }
+
+            .blog-content {
+                img {}
+                video {
+                    width: 100%;
+                    height: 422px;
+                }
+                audio {
+                    width: 100%;
+                    height: 45px;
+                }
+            }
+
+            .blog-control-panel {
+                display: flex;
+                margin-bottom: 30px;
+
+                li {
+                    width: 144px;
+                    height: 40px;
+                    background-color: #efefef;
+                    font-family: 'Novecentosanswide';
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #9b9999;
+                    margin-right: 10px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    padding-top: 8px;
+                    box-sizing: border-box;
+                    background: url('@{images}/sprite-blog.png');
+                }
+            }
+        }
+    }
+
+    .block-right {
+        width: 340px;
+        float: right;
+
+        .popular-posts ul li {
+            padding-top: 5px;
+            padding-bottom: 5px;
+
+            &:not(:last-child) {
+                border-bottom: 1px #9b9999 solid;
+            }
+        }
+
+        .popular-posts,
+        .blog-categories,
+        .archives-by-month {
+            margin-bottom: 28px;
+        }
+    }
+}
+
+nav {
+    margin-bottom: 60px;
+    clear: both;
+
+    ul {
+        display: flex;
+
+        li a {
+
+            font-family: 'Novecentosanswide';
+            font-size: 18px;
+            padding: 15px;
+            color: #666262;
+            font-weight: bold;
+            background-color: #ffffff;
+
+            &:hover {
+                background-color: #87b672;
+                color: #ffffff;
+            }
+        }
+    }
+}
